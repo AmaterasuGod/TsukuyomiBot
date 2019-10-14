@@ -9,8 +9,8 @@ import giphy_client
 from discord.ext.commands import Bot
 from giphy_client.rest import ApiException
 
-TOKEN = ''
-giphy_token = 'cyu3IixguA3cPACTTkIoGodryjS3ecYz'
+TOKEN = 'token'
+giphy_token = 'token'
 
 def get_prefix(bot, message):
     with open('Tsukuyomi Bot - Copy/prefixes.json', 'r') as f:
